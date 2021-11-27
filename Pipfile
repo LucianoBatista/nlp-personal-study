@@ -4,9 +4,15 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+beautifulsoup4 = "*"
+pyenchant = "*"
+nltk = "*"
+numpy = "*"
+spacy = "*"
 
 [dev-packages]
 black = "*"
+ipykernel = "*"
 
 [requires]
 python_version = "3.9"
