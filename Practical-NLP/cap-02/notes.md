@@ -251,46 +251,4 @@ Keep your eye on answer the initial question of the modeling, like: *"Doe the am
 
 # Working with Other Languages
 
-
-
-
-
-
-
-
-# Studos
-
-- Oportunidades/Desafios/Dores
-- Uma base em comum de dados possibilitando entender o aluno e suas dores em diferentes níveis. O que nos leva a iniciativas mais proativas.
-- Compreendimento dos produtos, entender features mais utilizadas, validar estatisticamente a eficácia de uma modificação de front no app, no site...
-- Compreender ainda nos produtos o que está levando a uma não utilização, por parte dos alunos e por parte de professores e coordenadores.
-  - Aqui temos dados
-- Criar recomendação dos produtos para diferentes escolas de forma automática.
-- Tecnologias bem mais avançadas, utilização de Deep Learning para melhoramento de etapas de leitura de gabaritos.
-- Criação de modelos de previsão de performance
-- Criação de modelos de previsão de falhas
-- Recomendação de questões para estudo com base no desempenho
-  
-- Tudo isso pode criar valor e diferencial de mercado absurdos, no entanto leva tempo.
-- Sem esquecer que o objetivo final disso tudo que pontuei são as pessoas da ponta: estudantes e professores/coordernadores... Usuários desses produtos.
-
-- Onde estamos, falando de Studos:
-  - muito longe de possibilitar isso acontecer
-- Onde estamos, falando da PSD:
-  - bem encaminhados em direção a criação de uma infra de bigdata
-- Onde estamos, falando de SAS:
-- Onde estamos, falando de SAE:
-- Onde estamos, falando de EDUQO:
-- Onde estamos, falando de EEM:
-
-- O local que eu entendo ser o ponto focal de utilização de todas as outras unidades possui a menor maturidade analítica e também não possui nenhum engenheiro de dados para dar um start nesse processo.
-
-- Não precisamos por enquanto de um canhão, mas pelo menos de algum armamento. As análises que fizemos até o momento trouxeram valor, mas poderiam ter acontecido de forma mais rápida e mais segura.
-
-- O processo analítico ele não obedece muito as metodologias ágeis, por que muitas vezes nós temos apenas hipóteses para tentar comprovar sua validade, não existem entregáveis bem definidos, nem todo problema seu é um modelo, muitas vezes vc não sabe nem se vc vai precisar de um modelo.
-
-- O ponto principal nesse momento é, confiança nos dados que estamos analisando, desvinculação das consultas para análise da base de produção para um local específico. 
-
-- Criação de um lake para armazenamento de tabelas resultados de análises, formato comprimido, pouco espaço.
-
-- 
+...
