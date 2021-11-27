@@ -168,6 +168,90 @@ More than one language on the phrase (code-mixing), or specific words from anoth
 
 NLP libraries already have POS taggers implemented.
 
+- named entity recognition: entity and patterns indicating relation
+- coreference resolution: multiple mentions to a entity
+
+
+# Feature Engineering
+
+- Better representation of the data
+- Most important to traditional NLP and ML pipelines than DL pipelines
+- Normally in DL we pass the raw data and the features and the representation of the data that better resolve the problem is learned throughout the epoch of the model.
+
+
+# Modeling
+
+## Starts with Simple Heuristics
+
+- You may want to think first in rules that already exist in your business
+- Apply those rules on already existing product
+- Regular Expressions are very useful in this step
+- `Stanford NLP's TokensRegex` and `spaCy's rule-based matching` are two tools that are useful for defining advanced regular expressions to capture other information.
+
+Some advanced patterns in regex are very useful in heuristics problems, *like finding a noun preceded by an adjective and followed by any word form of lemma 'be'.*
+
+## Building your model
+
+With time, simple heuristics become complexes and with more data, the ML model starts beating pure heuristics.
+
+- Create features from the heuristic for your ML model
+- Pre-process your input to the ML model
+  - If the heuristic has a really high prediction for a particular kind of class, then it's best to use it before feeding the data in your ML model.
+  - `[heuristics] -> [ML-model]`
+
+Additionally, we have NLP service providers on Cloud:
+- GCP: GCP Natural Language
+- AWS: Amazon Comprehend
+- Azure: Microsoft Azure Cognitive Services
+- IBM: Watson Natural Language Understanding
+
+Usually applied to common problems.
+
+
+## Building THE Model
+
+### Ensemble and Stacking
+
+A common practice is not to have a single model, but to use a collection of ML models, often dealing with different aspects of the prediction problem.
+
+1. One model before another, stacking.
+2. Pool predictions from multiple models to make a final prediction, ensemble.
+
+## Better feature engineering
+
+Choose better features, perform a feature selection to find a better model.
+
+## Transfer Learning
+
+Transfer learning tries to transfer preexisting knowledge from a big, well-trained model to a newer model at its initial phase.
+
+BERT is an examples of a big well-trained model used in transfer learning.
+
+## Reapplying heuristics
+
+It's possible to revisit these cases again at the end of the modeling pipeline to find any common pattern ir errors and use heuristics to correct them.
+
+Domain specific knowledge can also be used to refine the model predictions.
+
+
+# Evaluation
+
+- Trying the measure how good is your model
+  - choose the right metric for your model
+  - metrics can vary depending on the step: building, deployment and production phases.
+
+Keep your eye on answer the initial question of the modeling, like: *"Doe the amount of time users spent on a spam email really decreased?"*
+
+
+# Post-Modeling Phases
+
+- Deployment 
+- Monitoring: can use a dashboard showing the model parameters and key performance indicators.
+- Model updating
+
+# Working with Other Languages
+
+
 
 
 
