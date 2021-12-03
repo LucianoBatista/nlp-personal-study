@@ -9,6 +9,11 @@ pyenchant = "*"
 nltk = "*"
 numpy = "*"
 spacy = "*"
+pandas = "*"
+scikit-learn = "==1.0.1"
+gensim = "*"
+psutil = "*"
+wget = "*"
 
 [dev-packages]
 black = "*"
